@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "test:map": "vitest map",
+    "test:filter": "vitest filter"
   },
   "devDependencies": {
     "typescript": "^4.6.4",

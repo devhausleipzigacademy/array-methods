@@ -74,8 +74,8 @@ namesOnly([
 ]) -> ["Dan", "Franz", "Taylor"]
 */
 interface Person {
-  name: string;
-  age: number;
+  name: string
+  age: number
 }
 
 export function namesOnly(arr: Person[]): string[] {
